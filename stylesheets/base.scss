@@ -142,3 +142,65 @@ body{
         100% {left: -50%;}
     }
 }
+
+.popUp {
+    z-index: 999;
+    position: fixed;
+    top: 120px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #efece9;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h3{
+        text-align: center;
+        font-size: 18px;
+        margin-top: 0;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    p{
+        margin-left: 25px;
+        margin-right: 25px;
+        font-size: 9px;
+        line-height: 20px;
+        margin-top: 0;
+    }
+    
+    
+    input {
+        width: 80%;
+        margin-bottom: 25px;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-bottom: 1px solid #0056BC;
+        margin: 0px, 25px, 25px, 25px;
+        font-family: 'Rubik';
+    }
+
+    input::placeholder {
+        font-family: 'Rubik';
+        color: #0056BC;
+        font-size: 11px;
+    }
+
+    button {
+        margin-bottom: 12px;
+    }
+
+    .close {
+        width: 10px;
+        height: 10px;
+        align-self: flex-end;
+        margin: 10px;
+        background-image: url("../Assets/Icons/HamMenuClose.svg");
+        background-size: 10px 10px;
+        background-repeat: no-repeat;
+    }
+}
