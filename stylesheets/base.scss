@@ -113,3 +113,32 @@ body{
         }
     } 
 }
+
+.hero {
+    position: relative;
+    overflow: hidden;
+
+    .heroImg{
+        position: relative;
+        top: 0;
+        left: 0;
+        border: 1px #0056bc;
+        width: 100vw;
+    }
+
+    .cloud{
+        position: absolute;
+        top: 0px;
+        left: 0;
+        background-image: url("../Assets/Images/cloud.png");
+        background-repeat: repeat-x;
+        width: 2851px;
+        height: 100%;
+        animation: animatedImage 30s infinite linear;
+    }
+
+    @keyframes animatedImage {
+        0% {left: 0;}
+        100% {left: -50%;}
+    }
+}
