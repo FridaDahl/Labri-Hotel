@@ -33,3 +33,21 @@ p {
     font-family: 'Rubik';
     color: #0056bc;
 }
+
+.primary {
+    width: 100px;
+    height: 35px;
+    border-radius: 30px;
+    background-color: #ff5c00;
+    color: #ffffff;
+    font-family: "Helvetica";
+    font-size: 11px;
+    line-height: 13px;
+    border: none;
+}
+
+.primary:hover {
+    background-color: #ffffff;
+    border: 1px solid #ff5c00;
+    color: #ff5c00;
+}
