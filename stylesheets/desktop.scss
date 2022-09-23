@@ -90,3 +90,31 @@ p{
         }
     }
 }
+
+.popUp {
+    width: 450px;
+    margin-top: 200px;
+
+    button{
+        margin-bottom: 35px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    input::placeholder{
+        font-size: 16px;
+    }
+
+    .close{
+        width: 30px;
+        height: 30px;
+        margin: 35px;
+        background-size: auto;
+    }
+
+    .close:hover{
+        background-image: url("../Assets/Icons/HamMenuCloseHover.svg");
+    }
+}
