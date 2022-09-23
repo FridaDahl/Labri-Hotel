@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Eugusto';
+    src: url(../Assets/Fonts/Eugusto.otf);
+    font-weight: 400;
+    
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url(../Assets/Fonts/Rubik.ttf);
+    font-weight: 400;
+}
+
+h1{ 
+    font-family: 'Eugusto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 79px;
+    color: #0056BC;
+}
+
+h2{
+    font-family: 'Eugusto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 53px;
+    color: #0056BC;
+}
+
+h3{
+    font-family: 'Eugusto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    color: #FF5C00;
+}
+
+p{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #0056BC;
+}
