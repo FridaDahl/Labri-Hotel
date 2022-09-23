@@ -204,3 +204,32 @@ body{
         background-repeat: no-repeat;
     }
 }
+
+.content {
+    .wrap{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    h2{
+        width: 80vw;
+    }
+    p {
+        line-height: 30px;
+        width: 80vw;
+        font-size: 13px;
+    }
+    img {
+        width: 80vw;
+        margin: 12px;
+    }
+
+    a{
+        margin-bottom: 12px;
+        width: 80vw;
+        color: #0056BC;
+        font-family: 'Rubik';
+        font-size: 13px;
+    }
+}
