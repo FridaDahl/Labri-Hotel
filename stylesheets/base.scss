@@ -265,3 +265,21 @@ body{
         }
     }
 }
+
+footer{
+    margin-bottom: 35px;
+    .footerUl{
+        display: flex;
+        align-items: space-between;
+        list-style: none;
+        justify-content: center;
+        padding-left: 0;
+
+        li{
+            margin: 2px;
+            color: #0056BC;
+            font-family: 'Rubik';
+            font-size: 11px;
+        }
+    }
+}
