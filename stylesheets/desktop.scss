@@ -118,3 +118,30 @@ p{
         background-image: url("../Assets/Icons/HamMenuCloseHover.svg");
     }
 }
+
+.content {
+
+    .wrap{
+        flex-direction: row;
+        min-width: 0; /* new */
+        overflow: hidden;
+        box-sizing: border-box;
+        justify-content: center;
+        .container{
+            width: 40vw;
+            margin-left: 35px;
+
+            p{
+                width: 40vw;
+            }
+
+            h2{
+                width: 40vw;
+            }
+        }
+
+        img{
+            width: 40vw;
+        }
+    }
+}
