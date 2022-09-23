@@ -58,3 +58,35 @@ p{
     line-height: 13px;
     border: none;
 }
+
+.navBar{ 
+    position: fixed;
+    z-index: 999;
+    .topNav{
+        .imgContainer{
+            display: none;
+        }
+
+        button {
+            margin-right: 35px;
+        }
+    
+        .desktopMenu{
+            display: flex;
+            font-family: 'Rubik';
+            font-size: 24px;
+            color: #0056BC;
+            list-style: none;
+            
+            li a{
+                color: #0056BC;
+                text-decoration: none;
+                margin-right: 35px;
+            }
+
+            li a:hover{
+                font-weight: bold;
+            }
+        }
+    }
+}
